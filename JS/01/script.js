@@ -1,1 +1,4 @@
-console.log("funcionando correctamente")
+function saludar() {
+    alert("Hello world")
+};
+
