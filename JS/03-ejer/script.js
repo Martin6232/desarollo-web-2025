@@ -11,6 +11,7 @@ let nulo = null;
 
 let matriz = [[1, 2], [3, 4]];
 
+console.log(datos.nombre); //asi se llama algun dato de algun objeto
 
 function int() {
     alert(numero)
