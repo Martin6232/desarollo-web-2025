@@ -24,13 +24,13 @@ function declararVariables() {
     // Suma 'num1','num2' y 'num3', resta 'num1' de 'num3', multiplica 'num2' por 'num3', y divide 'num1' entre '120'.
     // Muestra los resultados en un mensaje.
     function realizarOperaciones() {
-        num1 = parseInt(prompt("ingresa el primer numero:"));
-        num2 = parseInt(prompt("ingresa el segundo numero:"));
-        num3 = parseInt(prompt("ingresa el tercer numero:"));
-        suma = num1 + num2 + num3;
-        resta = num1 - num3;
-        multiplicacion = num2 * num3;
-        divicion = num1 / 120;
+        let num1 = parseInt(prompt("ingresa el primer numero:"));
+        let num2 = parseInt(prompt("ingresa el segundo numero:"));
+        let num3 = parseInt(prompt("ingresa el tercer numero:"));
+        let suma = num1 + num2 + num3;
+        let resta = num1 - num3;
+        let multiplicacion = num2 * num3;
+        let divicion = num1 / 120;
         alert ("Resultados: \n Suma: " + suma + "\n Resta: " + resta + "\n Multiplicación: " + multiplicacion + "\n Divicion: " + divicion);
     // Tu código aquí
     }
