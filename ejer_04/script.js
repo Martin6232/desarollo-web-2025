@@ -1,3 +1,4 @@
+//1
 function temperatura() {
     let grados = parseInt(prompt("¿cual es la temperatura de hoy?:"))
     if(grados < 0){
@@ -11,7 +12,7 @@ function temperatura() {
         return;
     }
 }
-
+//2
 function accesousuario() {
     let usuario = "usuario123";
     let password = "secreto";
@@ -25,7 +26,7 @@ function accesousuario() {
         return;
     }
 }
-
+//3
 function signos() {
     let num = parseInt(prompt("Ingresa tu numero: "));
     if(num > 0){
@@ -39,7 +40,7 @@ function signos() {
         return;
     }
 }
-
+//4
 function puntuacion() {
     let record = parseInt(prompt("Puntuacion"))
     if(record >= 90){
@@ -52,4 +53,23 @@ function puntuacion() {
         alert("Necesitas mejorar");
     }
 }
+//5
+function verificar() {
+    let edad = parseInt(prompt("Ingresa tu edad"))
+    let condiciones = prompt("Aceptas las condiciones")
+    if(edad >= 18 && condiciones == "si") {
+        alert("Acceso permitido")
+    } else {
+        alert("Acceso denegado")
+    }
+}
 
+function descuento() {
+    let edad = parseInt(prompt("Ingresa tu edad"))
+    let quest = prompt("Eres estudiante")
+    if(edad > 60 || quest == "si") {
+        alert("Descuento aplicado")
+    } else {
+        alert("No tienes descuento")
+    }
+}
