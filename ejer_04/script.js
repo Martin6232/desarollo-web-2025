@@ -45,7 +45,7 @@ function puntuacion() {
     if(record >= 90){
         alert("Exelente");
         return;
-    }else if(record >= 70 || record == 89) {
+    }else if(record >= 70 && record <= 89) {
         alert("Buen trabajo");
         return;
     }else if(record < 70) {
