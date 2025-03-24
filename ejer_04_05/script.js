@@ -92,10 +92,17 @@ function encendido() {
     if (energiaSuficiente >= 15 && interruptorEncendido == "si") {
         alert("Máquina encendida");
     } else {
-        alert("No se puede encender la máquina")
+        alert("No se puede encender la máquina");
     }
 }
 
 function accesoRestringido() {
-    
+    let bloqueado = "jose";
+    let usuario = prompt("Ingrese su usuario:");
+    let tieneCredenciales = prompt("ingrese su credencial:");
+    if (!tieneCredenciales || usuario == bloqueado) {
+        alert("Acceso denegado");
+    } else {
+        alert("Acceso permitido");
+    }
 }
