@@ -26,7 +26,6 @@ function forsuma() {
             alert(`El resultado de la suma es: ${suma}`)
         }
     }
-    
 }
 
 function multiplos() {
