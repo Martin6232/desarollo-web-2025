@@ -3,7 +3,7 @@ function incremento() {
     let array = [];
     while (contador <= 5) {
         array.push(contador)
-        alert(array);
+        alert(array.join( - ));
         contador++;
     }
 }
@@ -13,7 +13,7 @@ function regresiva() {
     let array = [];
     while (contador >= 1) {
         array.push(contador)
-        alert(array);
+        alert(array.join( - ));
         contador--;
     }
 }
@@ -34,7 +34,7 @@ function multiplos() {
     for (let cont = 1; cont <= 10; cont++) {
         if(cont % 2 == 0) {
             array.push(cont)
-            alert(array);
+            alert(array.join( - ));
         }
     }
 }
