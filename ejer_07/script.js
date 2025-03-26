@@ -26,6 +26,7 @@ function forsuma() {
 function multiplos() {
     for (let cont = 1; cont <= 10; cont++) {
         if(cont % 2 == 0) {
+            console.log(cont);
             alert(cont);
         }
     }
