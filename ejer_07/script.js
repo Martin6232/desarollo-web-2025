@@ -22,8 +22,11 @@ function forsuma() {
     let suma = 0;
     for (let cont = 1; cont <= 5; cont++) {
         suma += cont;
+        if(cont == 5) {
+            alert(suma)
+        }
     }
-    alert(suma);
+    
 }
 
 function multiplos() {
