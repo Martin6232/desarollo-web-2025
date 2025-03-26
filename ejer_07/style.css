@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    background-color: dodgerblue;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+ul{
+    display: flex;
+}
+
+li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#funcion {
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: dodgerblue;
+    border-style: none;
+    margin: 15px;
+}
