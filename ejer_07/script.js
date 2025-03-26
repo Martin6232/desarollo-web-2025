@@ -1,9 +1,9 @@
 function incremento() {
     let contador = 1;
     let array = [];
-    while (contador <= 5) {
+    while (contador <= 5) { // bucle que cuenta hasta 5
         array.push(contador)
-        alert(array.join(" - "));
+        alert(array.join(" - ")); // imprime el array con espacios
         contador++;
     }
 }
@@ -11,7 +11,7 @@ function incremento() {
 function regresiva() {
     let contador = 10;
     let array = [];
-    while (contador >= 1) {
+    while (contador >= 1) {// cuenta regresiva
         array.push(contador)
         alert(array.join(" - "));
         contador--;
@@ -23,7 +23,7 @@ function forsuma() {
     for (let cont = 1; cont <= 5; cont++) {
         suma += cont;
         if(cont == 5) {
-            alert(suma)
+            alert(`El resultado de la suma es: ${suma}`)
         }
     }
     
@@ -32,7 +32,7 @@ function forsuma() {
 function multiplos() {
     let array = [];
     for (let cont = 1; cont <= 10; cont++) {
-        if(cont % 2 == 0) {
+        if(cont % 2 == 0) { // aqui se le agrega una condicion para que el bucle imprima los numeros multiplos de dos
             array.push(cont)
             alert(array.join(" - "));
         }
