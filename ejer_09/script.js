@@ -28,11 +28,28 @@ function impares() {
 }
 
 function teclado() {
-    let limit = 5
-    let inicial = 1
-    let sum = 0
-    for(let num= parseInt(prompt("Ingresa un numero: ")); inicial <= limit; inicial++){
-        sum += num
+    let n = 0
+    for(let inicial = 1; inicial <= 5; inicial++){
+        let num = parseInt(prompt("Ingresa un numero: "))
+        n += num
     }
-    alert(`La suma de todos los numeros es: ${sum}`)
+    alert(`La suma de todos los numeros es: ${n}`)
+}
+
+function teclado2() {
+    let n = 0
+    let veces = parseInt(prompt("Cuantas Veces quieres sumar: "))
+    for(let inicial = 1; inicial <= veces; inicial++){
+        let num = parseInt(prompt("Ingresa un numero: "))
+        n += num
+    }
+    alert(`La suma de todos los numeros es: ${n}`)
+}
+
+function calculadora() {
+    let num = parseInt(prompt("Ingresa tu primer numero: "))
+    let operacion = prompt("Ingresa tu operatoria: ")
+    let num2 = parseInt(prompt("Ingresa tu segundo numero: "))
+    let resultado = 0
+    
 }
