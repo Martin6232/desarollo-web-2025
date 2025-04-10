@@ -51,5 +51,86 @@ function calculadora() {
     let operacion = prompt("Ingresa tu operatoria: ")
     let num2 = parseInt(prompt("Ingresa tu segundo numero: "))
     let resultado = 0
-    
+    if(operacion === "+") {
+        resultado = num + num2
+        alert(`El Resultado de la operacion es:  ${resultado}`)
+    } else if(operacion === "-"){
+        resultado = num - num2
+        alert(`El Resultado de la operacion es:  ${resultado}`)
+    } else if(operacion === "*") {
+        resultado = num * num2
+        alert(`El Resultado de la operacion es:  ${resultado}`)
+    } else if(operacion === "/") {
+        resultado = num / num2
+        alert(`El Resultado de la operacion es:  ${resultado}`)
+    } else {
+        alert("La operatoria no es valida")
+    }
+}
+
+function npares() {
+    let n = 0
+    for(let limit = 1; limit <= 10; limit++){
+        let num = parseInt(prompt("ingrese su numero par:"))
+        if(num % 2 == 0){
+            n +=num
+            alert(`suma de los numeros:  ${n}`)
+        } else {
+            alert("Solo puedes poner numeros pares")
+            return
+        }
+    }
+}
+
+function suma_n_pares() {
+    let limit = parseInt(prompt("Ingrese hasta que numero quiere llegar: "))
+    let sum = 0
+    let array = []
+    for(let cont = 1; cont <= limit; cont++){
+        if(cont % 2 == 0){
+            sum += cont
+            array.push(cont)
+        }
+    }
+    alert(`${array.join(" + ")} = ${sum}`)
+}
+
+function nimpares() {
+    let n = 0
+    for(let limit = 1; limit <= 10; limit++){
+        let num = parseInt(prompt("Ingrese su numero impar:"))
+        if(num % 2 == 1){
+            n +=num
+            alert(`suma de los numeros:  ${n}`)
+        } else {
+            alert("Solo puedes poner numeros impares")
+            return
+        }
+    }
+}
+
+function suma_n_impares() {
+    let limit = parseInt(prompt("Ingrese hasta que numero quiere llegar: "))
+    let sum = 0
+    let array = []
+    for(let cont = 1; cont <= limit; cont++){
+        if(cont % 2 == 1){
+            sum += cont
+            array.push(cont)
+        }
+    }
+    alert(`${array.join(" + ")} = ${sum}`)
+}
+
+function suma_n_mult() {
+    let limit = parseInt(prompt("Ingrese hasta que numero quiere llegar: "))
+    let sum = 0
+    let array = []
+    for(let cont = 1; cont <= limit; cont++){
+        if(cont % 3 == 0){
+            sum += cont
+            array.push(cont)
+        }
+    }
+    alert(`${array.join(" + ")} = ${sum}`)
 }
