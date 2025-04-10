@@ -133,4 +133,5 @@ function suma_n_mult() {
         }
     }
     alert(`${array.join(" + ")} = ${sum}`)
+    
 }
