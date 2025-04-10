@@ -133,5 +133,38 @@ function suma_n_mult() {
         }
     }
     alert(`${array.join(" + ")} = ${sum}`)
-    
 }
+
+function nfactorial() {
+    let n = parseInt(prompt("Ingresa tu numero:"))
+    let fact = 1
+    let mult = []
+    for(let num = 1; num <= n; num++) {
+        mult.push(num)
+        fact *= num
+    }
+    alert(`El resultado de ${n}! es:\n${mult.join(" * ")} = ${fact}`)
+}
+
+function celcius() {
+    let c = parseInt(prompt("Ingresa la temperatura de hoy: "))
+    let f = (c * 9/5) + 32 //Este es la operacion para calcular los grados F
+    alert(`${c}°C = ${f}°F`)
+}
+
+function palabra_larga() {
+    let palabra = prompt("Ponga cualquier frase:")
+
+}
+
+function primos() {
+    let n = parseInt(prompt("Ingresa tu numero:"))
+    let primos = []
+    for(let num = 2; num <= n; num++){
+        if(num %  == 0) {
+            
+        }
+    }
+    alert(`Estos son todos los numeros primos de ${n}:\n${primos.join(" - ")}`)
+}
+
