@@ -151,13 +151,13 @@ function celcius() {
     let f = (c * 9/5) + 32 //Este es la operacion para calcular los grados F
     alert(`${c}°C = ${f}°F`)
 }
-
+/*
 function palabra_larga() {
     let frase = prompt("Ponga cualquier frase:")
 
 
 }
-/*
+
 function primos() {
     let n = parseInt(prompt("Ingresa tu numero:"))
     let primos = []
@@ -167,15 +167,16 @@ function primos() {
         }
     }
     alert(`Estos son todos los numeros primos de ${n}:\n${primos.join(" - ")}`)
-}*/
+
 function cont_character(){
     let text = prompt("Pon lo que quieras:")
     alert(`Tu texto: ${text} \nLa cantidad de caracteres: ${text.length}`)
-}
+}*/
 
 function ingresa_Npares() {
     let pares = []
-    for(let limit = 1; limit <= 15; limit++) {
+    let veces = parseInt(prompt("Cuantos caracteres quieres poner:"))
+    for(let limit = 1; limit <= veces; limit++) {
         let n = parseInt(prompt("Ingresa un numero:"))
         if(n % 2 == 0) {
             pares.push(n)
