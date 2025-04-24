@@ -47,10 +47,12 @@ header {
 #cuerpo {
     display: flex;
     margin: 40px;
+    flex-wrap: wrap;
 }
 .foto_user{
     width: 231px;
-    margin-top: -90px;
+    margin-top: -80px;
+
 }
 
 #perfil {
@@ -58,6 +60,8 @@ header {
     justify-items: center;
     box-shadow: 0px 1px 5px 0px gray;
     border-radius: 10px;
+    height: 420px;
+    margin-right: 50px;
 }
 
 .banner {
@@ -106,6 +110,61 @@ header {
 #conexiones {
     flex: 2;
 }
-/*solicitud de conexion*/
 
+.view_more {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.title {
+    flex: 4;
+    font-size: x-large;
+}
+
+.view_btn {
+    flex: 1;
+    font-size: 15px;
+    color: #3798dc;
+    width: 60px;
+    border-radius: 5px;
+    background-color: #fff;
+    border-color: #3798dc;
+    border-style: solid;
+}
+/*solicitud de conexion*/
+#solicitud {
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 0px gray;
+}
+
+.user_ico {
+    width: 40px;
+    margin-right: 20px;
+}
+.user_name {
+    flex: 2;
+}
+.check_ico {
+    width: 20px;
+    margin-right: 10px;
+}
+.delete_ico {
+    width: 20px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
 /*conexiones*/
+#conocidos {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 5px 0px gray;
+}

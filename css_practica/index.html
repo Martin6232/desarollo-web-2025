@@ -7,6 +7,7 @@
     <title>CSS practica</title>
 </head>
 <body>
+    <!--encabezado de pagina-->
     <header>
         <h1 id="titulo">Perfil</h1>
         <ul id="links">
@@ -16,7 +17,9 @@
             <li class="opciones"><button class="button">Cerrar sesión</button></li>
         </ul>
     </header>
+    <!--cuerpo de pagina-->
     <section id="cuerpo">
+        <!--apartado del perfil-->
         <section id="perfil">
             <main class="banner">
             </main>
@@ -29,11 +32,28 @@
                 <a href="#" class="edit"><img src="img/blueEngranaje.png" class="blue">Editar Perfil</a>
             </div>
         </section>
+        <!--apartado de contactos-->
         <section id="conexiones">
             <main id="solicitud">
+                <div class="view_more">
+                    <h4 class="title">Solicitudes de conexión</h4>
+                    <button class="view_btn">Ver todas</button>
+                </div>
                 <ul class="solicitud">
-                    <li></li>
-                    <li></li>
+                    <li class="list"><img src="img/user-icon.png" class="user_ico"><p class="user_name">Steve Jobs</p><img src="img/check-icon.png" class="check_ico"><img src="img/delete-1-icon.png" class="delete_ico"></li>
+                    <li class="list"><img src="img/user-icon.png" class="user_ico"><p class="user_name">Bill Gates</p><img src="img/check-icon.png" class="check_ico"><img src="img/delete-1-icon.png" class="delete_ico"></li>
+                </ul>
+            </main>
+            <main id="conocidos">
+                <div class="view_more">
+                    <h4 class="title">Tus conexiones</h4>
+                    <button class="view_btn">Ver todas</button>
+                </div>
+                <ul class="conocidos">
+                    <li class="list"><img src="img/user-icon.png" class="user_ico"><p class="user_name">Richard Stallman</p></li>
+                    <li class="list"><img src="img/user-icon.png" class="user_ico"><p class="user_name">Linus Torvalds</p></li>
+                    <li class="list"><img src="img/user-icon.png" class="user_ico"><p class="user_name">Ada Lovelace</p></li>
+                    <li class="list"><img src="img/user-icon.png" class="user_ico"><p class="user_name">Grace Hopper</p></li>
                 </ul>
             </main>
         </section>
