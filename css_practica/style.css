@@ -8,6 +8,9 @@ body{
     background-color: #edf0f2;
 }
 
+button {
+    cursor: pointer;
+}
 /*encabezado de pagina*/
 header { 
     display: flex;
@@ -20,6 +23,7 @@ header {
     flex: 3;
     color: #fff;
     margin-left: 15px;
+    cursor: pointer;
 }
 
 #links {
@@ -33,6 +37,7 @@ header {
 }
 .opciones {
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .button {
@@ -127,6 +132,7 @@ header {
     font-size: 15px;
     color: #3798dc;
     width: 60px;
+    height: 30px;
     border-radius: 5px;
     background-color: #fff;
     border-color: #3798dc;
@@ -151,9 +157,11 @@ header {
 .check_ico {
     width: 20px;
     margin-right: 10px;
+    cursor: pointer;
 }
 .delete_ico {
     width: 20px;
+    cursor: pointer;
 }
 
 .list {
