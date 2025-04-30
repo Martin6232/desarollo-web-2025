@@ -17,20 +17,26 @@ body {
     justify-content: space-between;
 }
 
-.container2 {
+.pink {
     background-color: #d2a8a9;
-    padding: 20px;
-    margin-bottom: 20px;
-    display: flex; 
     justify-content:space-around;
 }
 
-.container3 {
+.white{
     background-color: #f7fafc;
-    padding: 20px;
-    margin-bottom: 20px;
-    display: flex; 
-    justify-content: space-between;
+}
+
+.green{
+    background-color: #d2b04f;
+}
+
+.grey{
+    background-color: #80757b;
+    justify-content: space-around;
+}
+
+.red {
+    background-color: #6f0801;
 }
 
 .octocat {
