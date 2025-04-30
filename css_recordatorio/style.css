@@ -1,0 +1,38 @@
+body {
+    justify-content: center;
+    display: flex;
+    background-color: rgb(228, 228, 228);
+}
+
+#container {
+    text-align: center;
+    width: 800px;
+}
+
+.container {
+    background-color: #5bc6e8;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.container2 {
+    background-color: #d2a8a9;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content:space-around;
+}
+
+.container3 {
+    background-color: #f7fafc;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex; 
+    justify-content: space-between;
+}
+
+.octocat {
+    height: 200px;
+}
