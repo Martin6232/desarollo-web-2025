@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*contenedores*/
+
+#container {
+    display: flex;
+    width: 800px;
+}
+.container {
+    display: flex;
+}
+#mitad {
+    flex: 1;
+}
+.divicion{
+    margin-top: -15px;
+    margin-right: -15px ;
+}
+
+.uno{
+    flex: 2;
+}
+
+.dos {
+    flex: 1;
+}
+
+.tres {
+    flex: 2;
+}
+
+.invertida{
+    flex: 1;
+    display: flex;
+    flex-flow: column;
+}
+
+.block {
+    background-color: #b3b5b4;
+    margin: 15px;
+}
+
+/*blockes*/
+
+.grande {
+    height:160px;
+    flex: 1;
+}
+.flaco {
+    height: 40px;
+    flex: 1;
+}
+
+.normal {
+    height: 100px;
+    flex: 1;
+}
