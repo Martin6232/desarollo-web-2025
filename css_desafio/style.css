@@ -38,11 +38,29 @@ body{
     flex: 2;
 }
 
+.cuatro {
+    flex: 1;
+    margin-top: 5px;
+    margin-right: 0px;
+    display: flex;
+}
+
+.sinco {
+    flex: 2;
+    margin-right: 0px;
+}
+
 .invertida{
     flex: 1;
     display: flex;
     flex-flow: column;
 }
+.invertida_dos{
+    flex: 2;
+    display: flex;
+    flex-flow: column;
+}
+
 
 .block {
     background-color: #b3b5b4;
@@ -54,6 +72,13 @@ body{
 .grande {
     height:160px;
     flex: 1;
+}
+.grande_dos {
+    height:215px;
+    flex: 3;
+}
+.separacion{
+    margin-bottom: -1px;
 }
 .flaco {
     height: 40px;
