@@ -16,5 +16,9 @@ function registro() {
 }
 
 function simular() {
-    
+    let productos = ["Manzana", "Leche", "Huevos", "Queso", "Uvas", "Jamon"]
+    for(let stop = 0; stop <= 5; stop++) {
+        productos.pop(prompt(`${productos.join(`\n`)}Que producto se quiere llevar:`))
+    }
+    alert()
 }
