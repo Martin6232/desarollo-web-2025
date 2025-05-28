@@ -17,7 +17,7 @@ function registro() {
 
 function simular() {
     let productos = ["Manzana", "Leche", "Huevos", "Queso", "Uvas"]
-    for(let stop = 0; stop <= 5; stop++) {
+    for(let stop = 0; stop <= 6; stop++) {
         alert(`${productos.join(", ")}\nComprar producto`)
         let venta = productos[productos.length -1]
         if(productos.length === 0){
