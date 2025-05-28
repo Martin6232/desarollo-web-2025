@@ -22,3 +22,33 @@ function simular() {
     }
     alert()
 }
+
+function calcular() {
+    let notas = []
+    let promedio = null
+    for(let cont = 1; cont <= 5; cont++){
+        let ingresado = parseFloat(prompt(`${cont}-Ingrese su nota:`))
+        promedio += ingresado
+        notas.push(ingresado) 
+    }
+    promedio = promedio / 5
+    if(promedio >= 4.0){
+        alert(`Tus notas son: ${notas.join("\n")}\nTu promedio es: ${promedio}\n¡Estas aprobado!🎉🎉🎉`)
+    } else {
+        alert(`Tus notas son: ${notas.join("\n")}\nTu promedio es: ${promedio}\nEstas reprobado😢😢😢`)
+    }
+}
+
+function separar() {
+    let par = []
+    let impar = []
+    for(let cont = 1; cont <= 6; cont++) {
+        let num = parseInt(prompt(`${cont}- Ingrese un numero`))
+        if(num % 2 == 0) {
+            par.push(num)
+        } else {
+            impar.push(num)
+        }
+    }
+    alert(`Par: ${par.join(" - ")}\nImpar: ${impar.join(" - ")}`)
+}
