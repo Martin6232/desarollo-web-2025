@@ -16,11 +16,19 @@ function registro() {
 }
 
 function simular() {
-    let productos = ["Manzana", "Leche", "Huevos", "Queso", "Uvas", "Jamon"]
+    let productos = ["Manzana", "Leche", "Huevos", "Queso", "Uvas"]
     for(let stop = 0; stop <= 5; stop++) {
-        productos.pop(prompt(`${productos.join(`\n`)}Que producto se quiere llevar:`))
+        alert(`${productos.join(", ")}\nComprar producto`)
+        let venta = productos[productos.length -1]
+        if(productos.length === 0){
+            alert("Sin stock se a vendido todo.")
+            return
+        } else {
+            alert(`Se vendio: ${venta}`)
+            productos.pop()
+        }
     }
-    alert()
+    
 }
 
 function calcular() {
