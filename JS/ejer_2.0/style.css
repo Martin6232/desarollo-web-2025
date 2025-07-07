@@ -5,6 +5,7 @@
 header {
     background-color: blue;
     padding: 20px;
+    margin-bottom: 30px;
 }
 
 ul{
@@ -20,11 +21,19 @@ a {
     text-decoration: none;
     color: white;
 }
-#btn{
-    margin: 40px;
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#funcion {
     height: 30px;
-    width: 60px;
-    background-color: blue;
+    width: 100px;
     color: white;
+    background-color: dodgerblue;
     border-style: none;
+    margin: 15px;
 }
