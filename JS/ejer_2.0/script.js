@@ -1,16 +1,12 @@
 /* 1 y 2 */
+let carrito = []
 function compras() {
-    let carrito = []
-    let quitar
-    cont = 0
-    while(cont = 1){
-        let producto = prompt(`Quiere agregar un producto al carrito:`)
-        if (producto != "salir") {
-            carrito.push(producto)
-        } else {
-            cont++
-            break
-        }
-    }
-    alert(`¡Compra exitosa!\nUsted lleva: ${carrito.join(" - ")}`)
+    let elemento = document.getElementById("lista").value;
+    carrito.push(elemento)
+    document.getElementById("resultado").innerHTML = `Carro: <br>-${carrito.join("<br>-")}`;
+}
+
+function comprasdelpop() {
+    carrito.pop()
+    document.getElementById("resultado").innerHTML = `Carro: <br>-${carrito.join("<br>-")}`;
 }
