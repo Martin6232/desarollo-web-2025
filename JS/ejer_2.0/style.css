@@ -26,7 +26,6 @@ li {
 
 #container {
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -41,4 +40,5 @@ li {
 
 .card {
     margin: 10px;
+    flex: 1;
 }

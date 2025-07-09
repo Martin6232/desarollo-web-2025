@@ -19,14 +19,37 @@
         
     </header>
     <main id="container">
-        <div class="card">
-            <div class=" card-body">
+        <div class="card col-md-5">
+            <div class=" card-body ">
                 <h5 class="card-title">Ejercicio 1 Y 2</h5>
-                <h6 class="card-title"></h6>
+                <h6 class="card-title">Carrito de compras</h6>
                 <input type="text" class="form-control" id="lista">
                 <p class="card-text" id="resultado"></p>
-                <a href="#" onclick="compras()" class="btn btn-danger">Agregar</a>
+                <a href="#" onclick="compras()" class="btn btn-primary">Agregar</a>
                 <a href="#" onclick="comprasdelpop()" class="btn btn-danger">eliminar ultimo</a>
+            </div>
+        </div>
+        <div class="card col-md-5">
+            <div class=" card-body">
+                <h5 class="card-title">Ejercicio 3 Y 4</h5>
+                <h6 class="card-title">Lista de colores</h6>
+                <input type="text" class="form-control" id="list-color">
+                <p class="card-text" id="list"></p>
+                <a href="#" onclick="colors()" class="btn btn-primary">Agregar</a>
+                <a href="#" onclick="delcolor()" class="btn btn-danger">eliminar primero</a>
+            </div>
+        </div>
+        <div class="card col-md-6">
+            <div class=" card-body">
+                <h5 class="card-title">Ejercicio 5</h5>
+                <h6 class="card-title">Lista de colores</h6>
+                <input class="form-control" id="add-num">
+                <p class="card-text" id="list-num"></p>
+                <a href="#" onclick="num()" class="btn btn-primary mb-2">Agregar primero</a>
+                <a href="#" onclick="num()" class="btn btn-primary mb-2">Agregar ultimo</a>
+                <a href="#" onclick="delnum()" class="btn btn-danger mb-2">eliminar primero</a>
+                <a href="#" onclick="delnum()" class="btn btn-danger mb-2">eliminar ultimo</a>
+                
             </div>
         </div>
     </main>
