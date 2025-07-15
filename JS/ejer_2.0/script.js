@@ -42,3 +42,16 @@ function delnum() {
     numeros.shift()
     document.getElementById("list-num").innerHTML = `${numeros.join(" - ")}`
 }
+
+function lastnum() {
+    let elemento = document.getElementById("add-num").value;
+    let num = elemento.trim()
+    if (num === "") return;
+    numeros.push(num)
+    document.getElementById("list-num").innerHTML = `${numeros.join(" - ")}`
+}
+
+function delastnum() {
+    numeros.pop()
+    document.getElementById("list-num").innerHTML = `${numeros.join(" - ")}`
+}
