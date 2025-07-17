@@ -94,3 +94,38 @@ function delastnum() {
     document.getElementById("list-num").innerHTML = `${numeros.join(" - ")}`
 }
 /* ejer 6 ------------------------------------------------------------------------------------------------ */
+let list = []
+let number = 3
+function add() {
+    for(let cont = 1; number >= cont; number--){
+        list.unshift(number)
+    }
+    document.getElementById("resultado4").innerHTML = `${list.join(" - ")}`
+}
+/* ejer 7 ------------------------------------------------------------------------------------------------ */
+let historial = []
+let eliminado = []
+let cont = 0
+function mensaje() {
+    let elemento = document.getElementById("mensaje").value;
+    if(elemento === "")return;
+    if(cont <= 2){
+        historial.push(elemento)
+        cont++
+        if(cont === 3) {
+            historial.pop()
+            eliminado.push(elemento)
+            document.getElementById("del").innerHTML = `${eliminado} Eliminado`
+        }
+    }
+    document.getElementById("resultado5").innerHTML = `${historial.join(" Enviado<br>")} Enviado<br>`
+    
+}
+/* ejer 8 ------------------------------------------------------------------------------------------------ */
+let cola = ["Cliente1", "Cliente2", "Cliente3"]
+document.getElementById("resultado6").innerHTML = `${cola.join(" - ")}`
+let numero_lista = 4
+function atender() {
+    cola.shift()
+    numero_lista++
+}
