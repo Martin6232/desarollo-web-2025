@@ -123,9 +123,39 @@ function mensaje() {
 }
 /* ejer 8 ------------------------------------------------------------------------------------------------ */
 let cola = ["Cliente1", "Cliente2", "Cliente3"]
+
 document.getElementById("resultado6").innerHTML = `${cola.join(" - ")}`
 let numero_lista = 4
 function atender() {
     cola.shift()
+    let li = `cliente${numero_lista}`
+    cola.push(li)
+    document.getElementById("resultado6").innerHTML = `${cola.join(" - ")}`
     numero_lista++
 }
+/* ejer 9 ------------------------------------------------------------------------------------------------ */
+let nombres = ["Pedro", "Juan", "Luis"]
+
+document.getElementById("resultado7").innerHTML = `${nombres.join(" - ")}`
+function nombre() {
+    nombres.pop()
+    nombres.unshift("Mateo")
+    nombres.push("Ana")
+    document.getElementById("resultado7").innerHTML = `${nombres.join(" - ")}`
+}
+/* ejer 10 ------------------------------------------------------------------------------------------------ */
+
+let pilaf = ["Manzana", "Pera", "Uvas verdes"]
+let colaf = ["Manzana", "Pera", "Uvas verdes"]
+
+const li1 = document.getElementById("resultado8")
+const li2 = document.getElementById("resultado9")
+
+for(let cont = 0; cont <= pilaf; cont++){
+    const li = document.createElement(li)
+    li.innerText = 
+}
+
+
+
+
