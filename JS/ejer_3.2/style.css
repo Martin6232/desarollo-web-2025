@@ -1,0 +1,66 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Comic Sans MS', cursive;
+}
+
+#body{
+    justify-items: center;
+    
+}
+
+.head{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    width: 900px;
+}
+
+#titulo{
+    font-size: 30px;
+}
+
+.dos{
+    color: black;
+    margin: 10px;
+}
+
+.body{
+    justify-items: center;
+}
+
+/*Derecha-----------------------------------*/
+
+#derecha{
+    flex: 3;
+}
+
+#post{
+    
+}
+/*Izquierda-----------------------------------*/
+#izquierda{
+    flex: 1;
+    
+}
+#user{
+    border-style: solid;
+    justify-items: center;
+
+}
+
+
+.add{
+    font-size: 20px;
+    margin-left: 5px;
+}
+
+img{
+    width: 80px;
+    margin: 35px 10px 10px 32px
+}
+
+#name{
+    font-size: 20px;
+    margin: 20px;
+}
