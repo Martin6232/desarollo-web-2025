@@ -26,7 +26,8 @@
 }
 
 .body{
-    justify-items: center;
+    display: flex;
+    width: 900px;
 }
 
 /*Derecha-----------------------------------*/
@@ -36,7 +37,7 @@
 }
 
 #post{
-    
+    border-style: solid;
 }
 /*Izquierda-----------------------------------*/
 #izquierda{
@@ -46,7 +47,7 @@
 #user{
     border-style: solid;
     justify-items: center;
-
+    flex: 1;
 }
 
 
