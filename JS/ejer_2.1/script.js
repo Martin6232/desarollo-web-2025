@@ -4,3 +4,4 @@ function like() {
     document.getElementById("like-count").innerText = likes
     cont++
 }
+
