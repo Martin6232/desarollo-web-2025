@@ -1,0 +1,21 @@
+*{
+    font-family: "Comic Sans MS";
+    margin: 0px;
+    padding: 0px;
+}
+
+.head{
+    background-color: rgb(55, 39, 163);
+    padding: 10px;
+    color: rgb(0, 247, 255);
+}
+
+#ejer{
+    width: 600px;
+    height: 300px;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 0px 0px 10px 2px #6b6b6b;
+    border-radius: 15px;
+    background-color: #d8d8d8;
+}
