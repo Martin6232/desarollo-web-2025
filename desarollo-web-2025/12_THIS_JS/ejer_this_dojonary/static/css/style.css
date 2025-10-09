@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Comic Sans MS";
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f3f3f3;
+}
+
+a {
+    color: #085394;
+}
+
+.container {
+    margin:0 auto;
+    max-width: 62.5rem; /* equivalente a 1000px */
+    width: 100%;
+}
+
+.top {
+    background-color: #ccc;
+    height: 60px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.title {
+    font-size: 3.2rem;
+}
+
+.search {
+    flex: 1;
+    font-size: 1.2rem;
+    padding: 5px 10px;
+    margin: 0 100px;
+}
+
+.btn {
+    font-size: 1.2rem;
+    padding: 5px 15px;
+    border: 2px solid #000;
+    box-shadow: 4px 4px #000;
+    cursor: pointer;
+
+}
+
+.login {
+    background-color: #2b78e4;
+    color: #fff;
+}
+
+.like {
+    background-color: #ffd966;
+    width: 110px;
+}
+
+.add {
+    background-color: #93c47d;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    border-color: #000;
+    border: 2px;
+    border-style: solid;
+    margin: 20px 20px 20px 0px;
+    padding: 20px;
+    align-items: center;
+}
+
+.d1 {
+    display: flex;
+    
+}
+
+.left{
+    justify-items: center;
+}
+
+.d2 {
+    margin-right: 0px;
+}
+.flex-1{
+    flex: 1;
+}
+
+.flex-2{
+    flex: 3;
+}
