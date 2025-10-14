@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+/*Head---------------------------------------------------------------------------------------------------------------*/
+header{
+    background-color: #9fc5f8;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#locations{
+    display: flex;
+    list-style: none;
+}
+
+.locations{
+    margin: 15px;
+    cursor: pointer;
+}
+
+#name{
+    font-weight: bold;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+#info{
+    
+}
+
+/*body-------------------------------------------------------------------------------------------------------------------*/
