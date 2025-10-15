@@ -15,15 +15,74 @@
             <li class="locations"><a href="#">Dallas</a></li>
         </ul>
     </header>
-
-    <section id="info">
-        <h2>San jose</h2>
-        <p>Show temperature in </p>
-        <select id="temperatura">
-            <option value=""></option>
-            <option value=""></option>
-        </select>
+    <section class="container">
+        <section id="info">
+            <h2>San jose</h2>
+            <div class="temp">
+                <p>Show temperature in </p>
+                <select id="temperatura">
+                    <option>°C</option>
+                    <option>°F</option>
+                </select>
+            </div>
+        </section>
     </section>
+
+    <section id="container">
+        <section id="week">
+            <div class="day">
+                <h3 class="time">Today</h3>
+                <img src="resources/img/lluvia.png" class="clima">
+                <p>Some rain</p>
+                <section class="temps">
+                    <span id="temp_max">24°</span>
+                    <span id="temp_min">18°</span>
+                </section>
+            </div>
+
+            <div class="day">
+                <h3 class="time">Tomorrow</h3>
+                <img src="resources/img/sol.png" class="clima">
+                <p>Some sun</p>
+                <section class="temps">
+                    <span id="temp_max">27°</span>
+                    <span id="temp_min">19°</span>
+                </section>
+            </div>
+
+            <div class="day">
+                <h3 class="time">Friday</h3>
+                <img src="resources/img/nube.webp" class="clima">
+                <p>Some clouds</p>
+                <section class="temps">
+                    <span id="temp_max">21°</span>
+                    <span id="temp_min">16°</span>
+                </section>
+            </div>
+
+            <div class="day">
+                <h3 class="time">Saturday</h3>
+                <img src="resources/img/sol.png" class="clima">
+                <p>Some sun</p>
+                <section class="temps">
+                    <span id="temp_max">26°</span>
+                    <span id="temp_min">21°</span>
+                </section>
+            </div>
+        </section>
+    </section>
+    <section class="container">
+        <section id="cookies">
+            <img src="resources/img/cookie.png">
+            <div class="text">
+                <h3>Stop! Cookie time</h3>
+                <p>We use cookies (sadly not the edible ones) to personalize<br>content and ads, to provide social media fectures and to<br>analyse our traffic. <a href="#">Read more</a></p>
+            </div>
+            <button id="accept">I accept</button>
+        </section>
+    </section>
+        
+    
 </body>
 <script src="static/js/script.js"></script>
 </html>
